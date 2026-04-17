@@ -1,7 +1,7 @@
 # LISTA 12🌍
 
 ## 👥 Identificação
-**Integrantes da Equipe:** 
+* **Integrantes da Equipe:** 
     * **Icaro Ferreira de Oliveira** | Curso: Análise e Desenvolvimento de Sistemas (ADS) 
     * **Kaio Robertt Moreira Abreu** | Curso: Análise e Desenvolvimento de Sistemas (ADS) 
 * **Instituição:** Centro Universitário UNA
