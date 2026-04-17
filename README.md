@@ -46,4 +46,3 @@ O coração desta aplicação é o componente `EcoStatus.razor`. Para torná-lo 
 ## 🏆 Desafio Extra Implementado
 * **Barra de Progresso:** Adicionada uma representação visual que preenche conforme os pontos aumentam.
 * **Mensagem de Conquista:** Ao atingir a marca de 100 pontos, o sistema exibe a mensagem especial: *"Meta batida! Você é um Herói do Planeta!"*.
-```
