@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zaqE8mCWLnU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\LabDotnet\\EcoMonitor\\EcoMonitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.4\\microsoft.aspnetcore.app.internal.assets.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

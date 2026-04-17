@@ -1,0 +1,37 @@
+@rendermode InteractiveServer
+
+<div class="eco-card" style="border: 1px solid #ccc; padding: 15px; margin: 10px; border-radius: 8px; width: 250px;">
+    <h4>@Titulo</h4>
+    <p>Pontos por ação: @Peso</p>
+    <p>Total acumulado: <strong style="color: white; background-color: #007bff; padding: 2px 8px; border-radius: 10px;">@TotalAcumulado</strong></p>
+
+    <progress value="@TotalAcumulado" max="100" style="width: 100%; margin-bottom: 15px;"></progress>
+
+    <button class="btn btn-outline-success" @onclick="RegistrarAtividade">Registrar Atividade</button>
+
+    @if (TotalAcumulado >= 100)
+    {
+        <div style="margin-top: 15px; color: green; font-weight: bold;">
+            <p>⏳ Meta batida!</p>
+            <p>Você é um Herói do Planeta!</p>
+        </div>
+    }
+</div>
+
+@code {
+    // Parâmetros que vêm de "fora" (da página que chama o componente)
+    [Parameter]
+    public string Titulo { get; set; } = string.Empty;
+
+    [Parameter]
+    public int Peso { get; set; } = 0;
+
+    // Estado interno do componente
+    private int TotalAcumulado = 0;
+
+    // Método que é chamado quando o botão é clicado
+    private void RegistrarAtividade()
+    {
+        TotalAcumulado += Peso;
+    }
+}
