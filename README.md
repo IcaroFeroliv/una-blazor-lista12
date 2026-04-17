@@ -43,8 +43,6 @@ O coração desta aplicação é o componente `EcoStatus.razor`. Para torná-lo 
 * **Flexibilidade:** Graças a isso, pudemos instanciar o mesmo componente três vezes na página `Home.razor`, atribuindo pesos diferentes para cada tipo de ação (1 para plástico, 5 para eletrônicos e 10 para árvores) sem duplicar código lógico.
 * **Estado Dinâmico:** Cada instância do componente mantém seu próprio estado interno para o contador, garantindo que os pontos de uma categoria não interfiram nas outras.
 
----
-
 ## 🏆 Desafio Extra Implementado
 * **Barra de Progresso:** Adicionada uma representação visual que preenche conforme os pontos aumentam.
 * **Mensagem de Conquista:** Ao atingir a marca de 100 pontos, o sistema exibe a mensagem especial: *"Meta batida! Você é um Herói do Planeta!"*.
