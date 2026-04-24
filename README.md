@@ -22,7 +22,7 @@ Para rodar este projeto localmente, siga os passos abaixo via terminal:
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/una-blazor-lista12.git](https://github.com/seu-usuario/una-blazor-lista12.git)
+   git clone [[https://github.com/seu-usuario/una-blazor-lista12](https://github.com/IcaroFeroliv/una-blazor-lista12).gi]
    ```
 2. **Navegue até a pasta do projeto:**
    ```bash
